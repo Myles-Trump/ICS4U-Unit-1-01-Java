@@ -43,7 +43,7 @@ final class Logs {
     */
     public static void main(final String[] args) {
         // variables
-	final double numberOfLogs;
+        final double numberOfLogs;
 
 	final Scanner userInput = new Scanner(System.in);
 
