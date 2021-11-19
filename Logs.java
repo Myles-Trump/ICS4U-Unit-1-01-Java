@@ -1,5 +1,6 @@
 /*
-* The "Logs" program calculates how many logs you can fit into a truck with different cut sizes*
+* The "Logs" program calculates how many logs you can fit
+* into a truck with different log sizes
 *
 * @author  Myles Trump
 * @version 1.0
