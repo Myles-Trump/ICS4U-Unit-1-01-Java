@@ -1,4 +1,4 @@
-/**
+/*
 * The "Logs" program calculates how many logs you can fit
 * into a truck with different log sizes
 *
@@ -45,7 +45,7 @@ final class Logs {
         // variables
         final double numberOfLogs;
 
-	final Scanner userInput = new Scanner(System.in);
+        final Scanner userInput = new Scanner(System.in);
 
       	// ask the user to input 1 m logs, 0.5 m logs or 0.25 m logs
 	System.out.print("Enter log length (0.25, 0.5 or 1): ");
