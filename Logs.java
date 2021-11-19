@@ -21,7 +21,7 @@ final class Logs {
     /**
     * Max truck load.
     */
-    public static final double MAX_LOAD = 1100; 
+    public static final double MAX_LOAD = 1100;
 
     /**
     * Prevent instantiation.
@@ -41,14 +41,14 @@ final class Logs {
     * @param args No args will be used
     */
     public static void main(final String[] args) {
-	// variables
+        // variables
 	final double numberOfLogs;
-       
-	final Scanner userInput = new Scanner (System.in);
 
-      	// ask the user to input if they are loading 1 m longs, 0.5 m logs or 0.25 m logs
+	final Scanner userInput = new Scanner(System.in);
+
+      	// ask the user to input 1 m logs, 0.5 m logs or 0.25 m logs
 	System.out.print("Enter log length (0.25, 0.5 or 1): ");
-	
+
 	// Stores float in length
 	final float length = userInput.nextFloat();
 
