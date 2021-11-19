@@ -47,19 +47,19 @@ final class Logs {
 
         final Scanner userInput = new Scanner(System.in);
 
-      	// ask the user to input 1 m logs, 0.5 m logs or 0.25 m logs
-	System.out.print("Enter log length (0.25, 0.5 or 1): ");
+        // ask the user to input 1 m logs, 0.5 m logs or 0.25 m logs
+        System.out.print("Enter log length (0.25, 0.5 or 1): ");
 
-	// Stores float in length
-	final float length = userInput.nextFloat();
+        // Stores float in length
+        final float length = userInput.nextFloat();
 
-	// calculate number of logs
-	numberOfLogs = (MAX_LOAD / DENSITY) / length;
+        // calculate number of logs
+        numberOfLogs = (MAX_LOAD / DENSITY) / length;
 
-	// Outputs how many logs the truck can carry
-	System.out.println("The truck will be able to take "
-			+ numberOfLogs + " logs that are " + length
-			+ " meter(s) in length.");
+        // Outputs how many logs the truck can carry
+        System.out.println("The truck will be able to take "
+                + numberOfLogs + " logs that are " + length
+                + " meter(s) in length.");
 
         System.out.println("\nDone.");
     }
