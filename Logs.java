@@ -1,5 +1,5 @@
 /*
-* The "Hello Word!" program, just proves you can show print to terminal.
+* The "Logs" program calculates how many logs you can fit into a truck with different cut sizes*
 *
 * @author  Myles Trump
 * @version 1.0
