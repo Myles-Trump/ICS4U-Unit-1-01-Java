@@ -1,4 +1,4 @@
-/*
+/**
 * The "Logs" program calculates how many logs you can fit
 * into a truck with different log sizes
 *
